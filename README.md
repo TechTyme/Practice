@@ -1,2 +1,7 @@
-# Starrsite
-Config files for my GitHub profile.
+echo "# Starrsite" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/TechTyme/Starsite.git
+git push -u origin main
